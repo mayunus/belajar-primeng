@@ -13,6 +13,6 @@ export class NavbarComponent {
     { label: 'Wajib Pajak', icon: 'pi pi-users',    routerLink: ['/wajib-pajak'] },
     { label: 'Laporan',     icon: 'pi pi-chart-bar', routerLink: ['/laporan'] },
   ];
-user : "Yunus";
+user = "Yunus";
   constructor(public router: Router) {}
 }
